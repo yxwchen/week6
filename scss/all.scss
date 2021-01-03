@@ -1,0 +1,12 @@
+//@import "variableCustom";  引入自己的變數 
+@import "vari";
+// Required
+@import "./bootstrap/bootstrap"; //bs4
+@import "mixin"; //自己的mixin
+@import "base"; // 全站設定
+@import "utilities"; // 工具類 class，.mb-1、.pr-3
+@import "components"; //元件類 .card
+// layout 共同框架,第一層
+@import "layout/navigation";
+// page
+@import "pages/index";

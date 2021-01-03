@@ -1,0 +1,46 @@
+.card {
+    color: $white;
+}
+
+// 訂閱的input
+.inputForm {
+    // background: #f0f;
+    display: flex;
+    justify-content: space-between;
+    // border-radius: .4rem;
+}
+.inputText{
+    border: 2px solid $primary;
+
+    width: 100%;
+    border-radius: .4rem 0 0 .4rem ;
+
+}
+.inputText:focus{
+    outline:none;
+}
+.inputBtn{
+    width: 120px;
+    border-radius:0 .4rem .4rem 0;
+
+}
+//login input
+.inputStyleOutline{
+    border:1px solid $grayBlue-100;
+    color: $grayBlue-200;
+    border-radius: 4px;
+}
+//banner裡面的按鈕
+.btnH3{
+    font-size: $h3-font-size;
+}
+.btnH4{
+    font-size: $h4-font-size;
+}
+.btnH5{
+    font-size: $h5-font-size;
+}
+
+// input {
+//     width: 100%;
+// }

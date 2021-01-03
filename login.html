@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New3c.com | login</title>
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./scss/all.css">
+</head>
+
+<body>
+  <!-- 主導覽 -->
+  <div class="container px-md-0">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <!-- logo -->
+        <a class="navbar-brand navLogo" href="index.html">New3C.com | Computers, Electronics, &amp; More.</a>
+
+        <div class="d-flex ">
+            <!-- 小於768顯示的購物車 -->
+            <a href="#" class="nav-link navLink d-md-none d-lg-none d-xl-none"><span class="material-icons">
+                    shopping_cart
+                </span>(3)</a>
+            <!-- 漢堡icon -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <!-- 主導覽link -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active w-md-100 text-center">
+                    <a class="nav-link navLink" href="#"><span class="material-icons">
+                            store
+                        </span>Product</a>
+                </li>
+                <li class="nav-item w-md-100  text-center"><a href="./login.html" class="nav-link navLink "><span
+                            class="material-icons">
+                            person
+                        </span>log in</a></li>
+                <li class="nav-item w-md-100 text-center"><a href="#" class="nav-link navLink "><span
+                            class="material-icons">
+                            favorite
+                        </span>Wishlist</a></li>
+                <li class="nav-item w-md-100 text-center d-none d-md-block"><a href="#"
+                        class="nav-link navLink "><span class="material-icons">
+                            shopping_cart
+                        </span>Cart(3)</a></li>
+                </li>
+                <li class="nav-item w-100 text-center d-md-none d-lg-none d-xl-none"><a href="#"
+                        class="nav-link navLink h5 font-weight-normal">Blog</a></li>
+                <li class="nav-item w-100 text-center d-md-none d-lg-none d-xl-none"><a href="#"
+                        class="nav-link navLink h5 font-weight-normal">Contact</a></li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+</div>
+    <!-- 次導覽 -->
+    <header class="bg-primary d-none d-md-block">
+        <div class="container">
+            <nav class="nav">
+                <a class="nav-link active text-white" href="#">Computers
+                </a>
+                <a class="nav-link text-white" href="#">Photography
+                </a>
+                <a class="nav-link text-white" href="#">Video</a>
+                <a class="nav-link text-white" href="#">Audio</a>
+                <a class="nav-link text-white" href="#">Home Electronics
+                </a>
+                <a class="nav-link text-white" href="#">Musical Instruments
+                </a>
+                <a class="nav-link text-white" href="#">Home&Tool</a>
+                <a class="nav-link  disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="bg-primary">
+        <div class="container">
+        </div>
+    </div>
+    <!-- 主內容 -->
+    <div class="container my-20">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <img src="./images/login/login1.jpg" alt="">
+            </div>
+            <!-- forms -->
+            <div class="col-12 col-md-4 mt-7 d-flex flex-column justify-content-center">
+                <h2 class="font-weight-bold mb-3">Log in</h2>
+                <form>
+                    <ul class="list-unstyled ">
+                        <li class="mb-md-5 mb-5">
+                            <label for="email" class="mb-md-1 mb-1">Email</label>
+                            <br>
+                            <input class="w-100 inputStyleOutline" id="email" type="email" placeholder="xxx@gmail.com">
+                        </li>
+                        <li class="mb-md-9 mb-9">
+                            <label for="password" class="mb-md-1 mb-1">Password</label>
+                            <br>
+                            <input id="password"  class="w-100 inputStyleOutline" type="password">
+                        </li>
+                        <li class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="">Forgot Password?</a>
+                            <div>
+                                <button type="submit" name="submit" class="btn btn-outline-primary">Register</button>
+                                <button type="submit" name="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--以下footer區 -->
+    <footer class="bg-primary py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <a href="index.html" class="d-inline"><img src="./images/logoWhite.png" alt=""></a>
+                <span class="text-white text-sm">© 2020. All Rights Reserved.</span>
+            </div>
+            <ul class="nav navbar-text nav-md-hide">
+                <li class="nav-item"><a href="#" class="nav-link active text-white">Product</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Blog</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+      <!--Bootstrap js -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+ <script src="./js/all.js"></script>
+</body>
+
+</html>

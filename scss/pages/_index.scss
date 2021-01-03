@@ -1,0 +1,61 @@
+
+
+.banner {
+    height: 870px;
+    background-image: url(../../images/index/index01.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.subscribe {
+    min-height: 600px;
+    background: url(../../images/index/image09.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+//md-bn高度
+@media (max-width: 768px) {
+    .banner {
+        height: 650px;
+    }
+}
+@media (max-width: 414px) {
+    .banner {
+        height: 480px;
+    }
+}
+// File
+//
+// Custom file input.
+// .custom-file {
+//     position: relative;
+//     display: inline-block;
+//     width: 100%;
+//     height: calc(1.5em + .75rem + 2px);
+//     margin-bottom: 0;
+// // }
+
+// .custom-file-input {
+//     position: relative;
+//     z-index: 2;
+//     width: 100%;
+//     height: calc(1.5em + .75rem + 2px);
+//     margin: 0;
+//     opacity: 0;
+// }
+
+// .custom-file-label {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     left: 0;
+//     z-index: 1;
+//     height: calc(1.5em + .75rem + 2px);
+//     padding: .375rem .75rem;
+//     font-weight: 400;
+//     line-height: 1.5;
+//     color: #495057;
+//     background-color: #fff;
+//     border: 1px solid #ced4da;
+//     border-radius: .25rem;
+// }

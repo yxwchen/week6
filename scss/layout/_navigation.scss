@@ -1,0 +1,76 @@
+.navLogo {
+  width: 150px;
+  height: 38px;
+  font-size: 0;
+  background: url(../../images/logo.png) no-repeat;
+  display: block;
+  @include hide-text;
+}
+
+.navLogoLight {
+  width: 140px;
+  height: 38px;
+  font-size: 0;
+  background: url(../../images/logoWhite.png) no-repeat;
+  display: block;
+  @include hide-text;
+}
+
+//主導覽改顏色
+.navbar-light .navbar-nav .navLink {
+  color: $gray-300;
+}
+
+//主導覽縮小漢堡樣式
+.navbar-toggler {
+  font-size: 2rem;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.0);
+}
+
+
+//md-漢堡選單
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: $gray-600;
+  }
+  .navbar-light .navbar-nav .navLink {
+    color: $white;
+    border-bottom: 1px solid $white
+  }
+
+  .px-md-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  .navbar-nav {
+
+    a {
+      font-size: $h5-font-size;
+      font-weight: $font-weight-normal;
+    }
+
+    span {
+      display: none;
+    }
+    .navbar-nav:nth-child(2){
+      order:5;
+    }
+    .navbar-nav:nth-child(3){
+      order:2;
+    }
+    .navbar-nav:nth-child(5){
+      order:3;
+    }
+    .navbar-nav:nth-child(6){
+      order:4;
+    }
+  }
+  .nav-md-hide{
+    display: none;
+  }
+}
