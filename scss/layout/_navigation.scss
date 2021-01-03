@@ -2,7 +2,8 @@
   width: 150px;
   height: 38px;
   font-size: 0;
-  background: url(../../images/logo.png) no-repeat;
+  // background: url(../../images/logo.png) no-repeat;
+  background: url(https://github.com/yxwchen/week6/blob/main/images/logo.png?raw=true)no-repeat;
   display: block;
   @include hide-text;
 }
@@ -11,7 +12,8 @@
   width: 140px;
   height: 38px;
   font-size: 0;
-  background: url(../../images/logoWhite.png) no-repeat;
+  // background: url(../../images/logoWhite.png) no-repeat;
+  background: url(https://github.com/yxwchen/week6/blob/main/images/logoWhite.png?raw=true )no-repeat;
   display: block;
   @include hide-text;
 }

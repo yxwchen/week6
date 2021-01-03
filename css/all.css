@@ -16593,7 +16593,7 @@ body {
   width: 150px;
   height: 38px;
   font-size: 0;
-  background: url(../../images/logo.png) no-repeat;
+  background: url(https://github.com/yxwchen/week6/blob/main/images/logo.png?raw=true) no-repeat;
   display: block;
   text-indent: 101%;
   overflow: hidden;
@@ -16604,7 +16604,7 @@ body {
   width: 140px;
   height: 38px;
   font-size: 0;
-  background: url(../../images/logoWhite.png) no-repeat;
+  background: url(https://github.com/yxwchen/week6/blob/main/images/logoWhite.png?raw=true) no-repeat;
   display: block;
   text-indent: 101%;
   overflow: hidden;
@@ -16664,7 +16664,7 @@ body {
 }
 .banner {
   height: 870px;
-  background-image: url(../../images/index/index01.png);
+  background-image: url(https://github.com/yxwchen/week6/blob/main/images/index/index01.png?raw=true);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16672,7 +16672,7 @@ body {
 
 .subscribe {
   min-height: 600px;
-  background: url(../../images/index/image09.png) no-repeat;
+  background: url(https://github.com/yxwchen/week6/blob/main/images/index/image09.png?raw=true) no-repeat;
   background-position: center;
   background-size: cover;
 }
